@@ -1,0 +1,117 @@
+/* font-family mdn */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*********** ###### ***********/
+/******** CSS RESET ********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*********** ###### ***********/
+/******** BASE ********/
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.69rem;
+  color: white;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-image: linear-gradient(#0c0200d9, rgba(0, 0, 0, 0.4)),
+    url("./bg.jpg");
+  height: 100vh;
+  position: relative;
+}
+
+/*********** ###### ***********/
+/******** nav-bar ********/
+
+nav {
+  padding: 2rem 3rem;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #ff7300;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  margin-left: 1.7rem;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  color: #ff7300;
+}
+
+/*********** ###### ***********/
+/******** hero-section ********/
+
+.container_box {
+  width: 100%;
+  position: absolute;
+  top: 44%;
+  text-align: center;
+  color: white;
+}
+
+.container_box h1 {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+
+.container_box p {
+  margin-bottom: 3rem;
+}
+
+span {
+  color: #ff7300;
+}
+
+.button {
+  padding: 0.7rem 1.3rem;
+  margin-left: 1rem;
+  border: 2px solid #ff7300;
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  transition: 0.3s;
+  fill: none;
+}
+
+.button:hover {
+  background-color: #2e1500;
+  padding: 0.79rem 1.34rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
