@@ -3,7 +3,9 @@
 ![Simple landing page](./preview/preview.PNG)
 
 > You will learn🤓
->
+
 > > making simple navbar 😇
+
 > > learning flexbox 💪📦
+
 > > making interactive button ✅
